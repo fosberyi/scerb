@@ -1,0 +1,20 @@
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 15:28:12 -0400
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 15:51:53 -0400
+Processing by HandlersController#rb_handler as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 15:53:30 -0400
+Processing by HandlersController#rb_handler as HTML
+  Rendered handlers/rb_handler.html.rb within layouts/application (0.3ms)
+Completed 200 OK in 158ms (Views: 158.2ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 15:55:43 -0400
+Processing by HandlersController#rb_handler as HTML
+  Rendered handlers/rb_handler.html.rb within layouts/application (0.3ms)
+Completed 200 OK in 154ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 15:57:24 -0400
+Processing by HandlersController#rb_handler as HTML
+  Rendered handlers/rb_handler.html.rb within layouts/application (0.3ms)
+Completed 200 OK in 155ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 16:03:29 -0400
+Processing by HandlersController#rb_handler as HTML
+  Rendered handlers/rb_handler.html.rb (0.3ms)
+Completed 200 OK in 7ms (Views: 7.3ms | ActiveRecord: 0.0ms)
