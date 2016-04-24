@@ -22,7 +22,6 @@ just so I could say 'thusly'."
 
   s.add_dependency "rails", "~> 4.2.5"
   s.add_dependency "sass", "~> 3.0"
-  s.add_dependency "tilt", "~> 2.0"
 
   s.add_development_dependency "rspec-rails", "~> 3.0"
   s.add_development_dependency "sqlite3"

@@ -1,6 +1,5 @@
 require "action_view/template"
 require "sass"
-require "tilt"
 
 module Scerb
   def self.erb_handler

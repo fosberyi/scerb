@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scerb (0.0.1)
+    scerb (0.1.0)
       rails (~> 4.2.5)
       sass (~> 3.0)
       tilt (~> 2.0)
