@@ -1,7 +1,6 @@
 ENV["RAILS_ENV"] = "test"
 
 require "dummy/config/application"
-
 require "rspec/rails"
 
 Dummy::Application.initialize!

@@ -9,15 +9,20 @@ Gem::Specification.new do |s|
   s.version     = Scerb::VERSION
   s.authors     = ["Ian Fosbery"]
   s.email       = ["ian@codeguy.io"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Scerb."
-  s.description = "TODO: Description of Scerb."
+  s.homepage    = "https://github.com/fosberyi/scerb"
+  s.summary     = "Template handler for using erb + scss to produce css"
+  s.description = "This gem (plugin, whatever you wanna call it...) is for handling templates 
+of the `.css.scerb` variety in your Rails application. Which is basically a
+`.css.scss.erb` - compiling thusly: `erb` -> `scss` -> `css`. Yeah, that was
+just so I could say 'thusly'."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5"
+  s.add_dependency "sass", "~> 3.0"
+  s.add_dependency "tilt", "~> 2.0"
 
   s.add_development_dependency "rspec-rails", "~> 3.0"
   s.add_development_dependency "sqlite3"

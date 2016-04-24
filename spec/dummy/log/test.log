@@ -22,3 +22,200 @@ Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 20:31:30 -0400
 Processing by HandlersController#rb_handler as HTML
   Rendered handlers/rb_handler.html.rb (0.3ms)
 Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 22:50:14 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 23:01:09 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 23:02:48 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 23:11:13 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 23:15:30 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.html.scerb (3.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 23:16:00 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb?color=" for 127.0.0.1 at 2016-04-23 23:29:00 -0400
+Processing by HandlersController#scerb as HTML
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:33:49 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (2.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:38:20 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (2.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:39:27 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (40551.9ms)
+Completed 500 Internal Server Error in 40562ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:40:25 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (2.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:41:11 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (3.9ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:44:45 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (5.9ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:46:39 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (5.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:48:16 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (6.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:51:31 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (5.3ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:54:42 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (69086.9ms)
+Completed 500 Internal Server Error in 69100ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:57:53 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (6.8ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-23 23:58:32 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (7.4ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-24 00:07:30 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (4.9ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-24 00:08:18 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (6.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-24 00:09:13 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (86722.7ms)
+Completed 500 Internal Server Error in 86734ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-24 00:11:11 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+  Rendered handlers/scerb.css.scerb (7.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=" for 127.0.0.1 at 2016-04-24 00:11:20 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>""}
+Completed 500 Internal Server Error in 32511ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000" for 127.0.0.1 at 2016-04-24 00:13:16 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000"}
+Completed 500 Internal Server Error in 8055ms (ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000" for 127.0.0.1 at 2016-04-24 00:13:41 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000"}
+  Rendered handlers/scerb.css.scerb (3.8ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 01:51:47 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (4.9ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 01:53:16 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.2ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 01:53:53 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.3ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 01:56:05 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (4.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 01:56:42 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (4.4ms)
+Completed 200 OK in 15ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:35:08 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (4.0ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:35:26 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (4.2ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:38:49 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.5ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:39:59 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.3ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:40:22 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:41:03 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.7ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:44:35 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.3ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:47:35 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (5.2ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:47:40 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (2.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-04-24 13:52:27 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (3.5ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)

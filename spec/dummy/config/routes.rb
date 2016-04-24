@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "/handlers/:action", to: "handlers"
+  get "/handlers/:action", controller: "handlers"
 end
