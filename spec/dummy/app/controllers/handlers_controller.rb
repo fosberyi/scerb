@@ -1,5 +1,5 @@
 class HandlersController < ApplicationController
-  def rb_handler
+  def scerb_handler
     render layout: false
   end
 end

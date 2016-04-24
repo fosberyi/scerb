@@ -18,3 +18,7 @@ Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 16:03:29 -0400
 Processing by HandlersController#rb_handler as HTML
   Rendered handlers/rb_handler.html.rb (0.3ms)
 Completed 200 OK in 7ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Started GET "/handlers/rb_handler" for 127.0.0.1 at 2016-04-23 20:31:30 -0400
+Processing by HandlersController#rb_handler as HTML
+  Rendered handlers/rb_handler.html.rb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
