@@ -3,3 +3,8 @@ Processing by HandlersController#scerb as CSS
   Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
   Rendered handlers/scerb.css.scerb (3.2ms)
 Completed 200 OK in 11ms (Views: 11.1ms)
+Started GET "/handlers/scerb.css?color=%23FF0000&percentage=10%25" for 127.0.0.1 at 2016-05-04 21:57:06 -0400
+Processing by HandlersController#scerb as CSS
+  Parameters: {"color"=>"#FF0000", "percentage"=>"10%"}
+  Rendered handlers/scerb.css.scerb (9.8ms)
+Completed 200 OK in 19ms (Views: 18.5ms)
