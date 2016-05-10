@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     scerb (0.1.0)
-      rails (~> 4.2.0)
-      sass (~> 3.0)
+      rails (>= 3.1)
+      sass (>= 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -43,6 +43,10 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    appraisal (2.1.0)
+      bundler
+      rake
+      thor (>= 0.14.0)
     arel (6.0.3)
     builder (3.2.2)
     byebug (8.2.4)
@@ -136,6 +140,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  appraisal
   pry-byebug
   rspec-rails (~> 3.0)
   scerb!

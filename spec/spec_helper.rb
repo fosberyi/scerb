@@ -1,13 +1,16 @@
 ENV["RAILS_ENV"] = "test"
 
-require "dummy/config/application"
+require "dummy/application"
 require "rspec/rails"
 
 Dummy::Application.initialize!
 
-Dir[Rails.root.join("spec/support/**/*.rb")].sort.each { |file| require file }
+Dir["#{__dir__}/support/**/*.rb"].sort.each { |file| require file }
 
 RSpec.configure do |config|
+
+  config.include SassFunctions
+
   config.expect_with :rspec do |expectations|
     expectations.syntax = :expect
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true

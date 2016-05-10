@@ -12,6 +12,20 @@ The ideas behind the gem come from Jos&eacute; Valim's
 *[Crafting Rails 4 Applications](https://pragprog.com/book/jvrails2/crafting-rails-4-applications)*
 in which he creates a template handler for Markdown to HTML. Same idea here, basically.
 
+### Syntax Highlighting
+
+So obviously there's not much support for `.scerb` files. If you'd like to get some syntax
+highlighting for this file type here's a few ways, depending on your editor:
+
+#### Vim
+
+Add the following line to your `.vimrc` somewhere (it can be in a support config file or 
+something like that - as long as it gets loaded into your `.vimrc` eventually):
+
+```
+autocmd BufNewFile,BufRead *.scerb set filetype=scss.erb
+```
+
 ### FAQ
 
 **What do I need this for?**
