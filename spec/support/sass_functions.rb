@@ -8,12 +8,21 @@ module SassFunctions
     }.to_s
   end
 
+  def lighten_color(hex, percentage)
+    base_sass_eval_context.lighten(
+      base_sass_eval_context.hex_color(hex),
+      sass_number(percentage.to_i)
+    ).tap { |color| 
+      color.options = base_sass_options
+    }.to_s
+  end
+
   def base_sass_eval_context
-    @base_sass_eval_context ||= Sass::Script::Functions::EvaluationContext.new(base_sass_environment)
+    Sass::Script::Functions::EvaluationContext.new(base_sass_environment)
   end
 
   def base_sass_environment
-    @base_sass_environment ||= Sass::Environment.new(nil, base_sass_options)
+    Sass::Environment.new(nil, base_sass_options)
   end
 
   def sass_number(int)

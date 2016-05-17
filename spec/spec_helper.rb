@@ -3,6 +3,9 @@ ENV["RAILS_ENV"] = "test"
 require "dummy/application"
 require "rspec/rails"
 
+PROJECT_ROOT = File.expand_path(File.join(File.dirname(__FILE__), "..")).freeze
+DUMMY_APP_ROOT = File.expand_path(File.join(File.dirname(__FILE__), "dummy")).freeze
+
 Dummy::Application.initialize!
 
 Dir["#{__dir__}/support/**/*.rb"].sort.each { |file| require file }
