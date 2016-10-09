@@ -10,6 +10,15 @@ describe ".scerb template handler" do
       .to eq compress_string(expected_simple_css(resulting_color))
   end
 
+  it "can render a full scerb file to a css" do
+    create_view_file <<-scerbfile
+      .this {
+        color: "#FFF";
+      }
+    scerbfile
+    get "/handlers/integration.css", {color: "#FFF", percentage: "20%"}
+  end
+
   def expected_simple_css(color)
     ".css-class {color: #{color};}"
   end

@@ -1,6 +1,13 @@
 module IntegrationHelpers
-  def create_view_file(content)
-    write_file ""
+
+  include do
+    before do
+      cleanup_artifacts
+    end
+  end
+
+  def create_view_file(heredoc_content)
+    write_file "integration.css.scerb", heredoc_content.strip_heredoc
   end
 
   def write_file(filename, content)
@@ -13,6 +20,9 @@ module IntegrationHelpers
   end
 
   def views_dir
-    File.expand_path("../dummy/app/views/handlers")
+    File.expand_path("spec/dummy/app/views/handlers")
+  end
+
+  def cleanup_artifacts
   end
 end

@@ -13,6 +13,7 @@ Dir["#{__dir__}/support/**/*.rb"].sort.each { |file| require file }
 RSpec.configure do |config|
 
   config.include SassFunctions
+  config.include IntegrationHelpers
 
   config.expect_with :rspec do |expectations|
     expectations.syntax = :expect
